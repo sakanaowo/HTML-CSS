@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: #0f0f0f;
+}
+.card {
+  width: 800px;
+  height: 200px;
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  margin: 20px;
+}
+.card-title {
+  padding: 10px;
+  /* background: #f1f1f1; */
+  /* border-bottom: 1px solid #e0e0e0; */
+}
+p {
+  padding: 10px;
+}
+::-webkit-scrollbar {
+  background: #0f0f0f;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 50px;
+}
