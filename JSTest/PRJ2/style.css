@@ -1,0 +1,45 @@
+body {
+  background-color: #f0f0f0;
+  height: 100vh;
+  /* background: linear-gradient(to bottom left, #a32e2e, #29d1d7); */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+.btnField {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+button {
+  padding: 10px 20px;
+  border: solid 1px #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.grBtn {
+  background-color: green;
+  color: white;
+}
+#rBtn {
+  background-color: red;
+  color: white;
+}
+#BlBtn {
+  background-color: blue;
+  color: white;
+}
+
+#YlBtn {
+  background-color: yellow;
+  color: black;
+}
+
+#rand {
+  background-color: #333;
+  color: white;
+}
