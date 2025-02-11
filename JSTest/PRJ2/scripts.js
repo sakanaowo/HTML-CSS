@@ -12,3 +12,9 @@ function randColor() {
   const blue = Math.round(Math.random() * 255);
   body.style.background = `linear-gradient(to bottom left, rgb(${red}, ${green}, ${blue}), rgb(${green}, ${blue}, ${red}))`;
 }
+function meobinh() {
+  body.style.background = "none";
+  const tmp = document.getElementById("anh-meo-binh");
+  tmp.style.backgroundImage = 'url(Images/IMG_4129.JPG)';
+  
+}
