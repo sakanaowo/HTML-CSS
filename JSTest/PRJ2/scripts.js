@@ -1,4 +1,5 @@
 const body = document.getElementsByTagName("body")[0];
+let active = 1;
 
 function setColor(name) {
   body.style.background = "none";
@@ -13,8 +14,9 @@ function randColor() {
   body.style.background = `linear-gradient(to bottom left, rgb(${red}, ${green}, ${blue}), rgb(${green}, ${blue}, ${red}))`;
 }
 function meobinh() {
+  active *= -1;
   body.style.background = "none";
   const tmp = document.getElementById("anh-meo-binh");
-  tmp.style.backgroundImage = 'url(Images/IMG_4129.JPG)';
-  
+  if (active == 1) tmp.style.backgroundImage = "url(Images/IMG_4129.JPG)";
+  else tmp.style.backgroundImage = "url(Images/IMG_4130.JPG)";
 }
